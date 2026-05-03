@@ -1,5 +1,5 @@
-# YTPlusM
-A fork of an incredible enhancer for YouTube on iOS, featuring over hundred customizable options with more tweaks than the original <a href="https://github.com/dayanch96/YTLite">YouTube Plus.</a>
+# YTPlusM DIY 5.1.2
+A fork of an incredible enhancer for YouTube on iOS, featuring over hundred customizable options but with more tweaks than the original <a href="https://github.com/dayanch96/YTLite">YouTube Plus.</a>
 
 <strong>Pre-built IPAs updates will be published in 5-48 hours (variable)</strong>
 
@@ -10,6 +10,7 @@ A fork of an incredible enhancer for YouTube on iOS, featuring over hundred cust
 - [Reviews](#reviews)
 - [How to build a YouTube Plus app using GitHub Actions](#how-to-build-a-youtube-plus-app-using-github-actions)
 - [What Means YTPlusM and YTPlusM DIY](#what-means-ytplusm-and-ytplusm-diy)
+- [YTPlusM DIY versions changelog](#ytplusm-diy-versions-changelog)
 - [Supported YouTube Version](#supported-youtube-version)
 - [Supported YouTube Version For iOS 15](#supported-youtube-version-for-ios-15)
 - [Tweak Integration Details](#tweak-integration-details)
@@ -109,12 +110,15 @@ Review by [@qbap](https://github.com/qbap) on ONE Jailbreak: https://onejailbrea
 <li><strong>YTPlusM:</strong></li>
 <strong>YTPlusM releases and build</strong> are releases with <strong>three more tweak injected by me</strong> (<a href="https://github.com/fosterbarnes/YTweaks">YTweaks</a>, <a href="https://github.com/castdrian/Gonerino">Gonerino</a> and <a href="https://github.com/PoomSmart/YouSpeed">YouSpeed</a>)
 
-
-
 <li><strong>YTPlusM DIY:</strong></li>
 <strong>From now, YOU can build the IPAs of YTPlusM with GitHub Actions! Go on Actions, workflows, "Create YouTube Plus app", select the branch "YTPlusM_DIY" and create your total functioning IPA!</strong>
-View also [How to build a YouTube Plus app using GitHub Actions](#how-to-build-a-youtube-plus-app-using-github-actions) to learn how to create YTPlus and YTPlusM IPAs.
+View also <a href=#how-to-build-a-youtube-plus-app-using-github-actions>How to build a YouTube Plus app using GitHub Actions</a> to learn how to create YTPlus and YTPlusM IPAs.
+
 PS: DIY=DO IT YOURSELF
+
+## YTPlusM DIY versions changelog
+<li><strong>1.0:</strong></li>
+First release, added YTweaks, Gonerino and YouSpeed injectable
 
 ## Supported YouTube Version
 <ul>
@@ -187,7 +191,7 @@ PS: DIY=DO IT YOURSELF
  <p>Gonerino is a tweak developed by <a href="https://github.com/castdrian">castdrian</a>, a tweak to block specific videos, channels and words for the iOS YouTube app.</p>
  <p><strong>Gonerino preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
  <p>Source code and additional information are available <a href="https://github.com/castdrian/Gonerino">in castdrian's repository.</p>
- <p><em>Gonerino is available only from <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_21.13.6_updated_YTPlusM">YTPlusM 21.13.6 updated</a> and <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_20.21.6_YTweaks">YTPlusM 20.21.6 for iOS 15</a> pre-built releases, but you can build your version of YTPlusM now! View "How to build a YouTube Plus app using GitHub Actions" and "What Means YTPlusM and YTPlusM DIY"</em></p>
+ <p><em>Gonerino is available only from <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_21.13.6_updated_YTPlusM">YTPlusM 21.13.6 updated</a> and <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_20.21.6_YTweaks">YTPlusM 20.21.6 for iOS 15</a> pre-built releases, but you can build your version of YTPlusM now! View <a href=#how-to-build-a-youtube-plus-app-using-github-actions>How to build a YouTube Plus app using GitHub Actions</a> and <a href=#what-means-ytplusm-and-ytplusm-diy>What Means YTPlusM and YTPlusM DIY</a></em></p>
 </details>
 
 <details>
@@ -195,5 +199,5 @@ PS: DIY=DO IT YOURSELF
  <p>YouSpeed is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a>, a tweak to view, change and add video speed options in the video overlay.</p>
  <p><strong>YouSpeed preferences</strong> are available in the <strong>Video overlay</strong> section under <strong>YouTube settings</strong>.</p>
  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YouSpeed">in PoomSmart's repository.</p>
- <p><em>YouSpeed is available only from <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_21.13.6_updated_YTPlusM">YTPlusM 21.13.6 updated</a> and <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_20.21.6_YTweaks">YTPlusM 20.21.6 for iOS 15</a> pre-built releases, but you can build your version of YTPlusM now! View "How to build a YouTube Plus app using GitHub Actions" and "What Means YTPlusM and YTPlusM DIY"</em></p>
+ <p><em>YouSpeed is available only from <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_21.13.6_updated_YTPlusM">YTPlusM 21.13.6 updated</a> and <a href="https://github.com/Mark02-2012/YTPlusM/releases/tag/5.2b4_20.21.6_YTweaks">YTPlusM 20.21.6 for iOS 15</a> pre-built releases, but you can build your version of YTPlusM now! View <a href=#how-to-build-a-youtube-plus-app-using-github-actions>How to build a YouTube Plus app using GitHub Actions</a> and <a href=#what-means-ytplusm-and-ytplusm-diy>What Means YTPlusM and YTPlusM DIY</a></em></p>
 </details>
