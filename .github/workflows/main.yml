@@ -69,6 +69,12 @@ on:
         required: true
         type: string
 
+      tweak_version:
+        description: "The version of the tweak to use. Versions that you can use are from 5.1 to 5.2.1 (no 5.2)"
+        default: "5.2.1"
+        required: true
+        type: string
+
       display_name:
         description: "App Name (Optional)"
         default: "YouTube"
@@ -105,6 +111,8 @@ jobs:
       enable_gonerino: ${{ inputs.enable_gonerino }}
       enable_youspeed: ${{ inputs.enable_youspeed }}
       enable_ytlcm: ${{ inputs.enable_ytlcm }}
+      tweak_version: ${{ inputs.tweak_version }}
+
 
   package:
     name: Package IPA
