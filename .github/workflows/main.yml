@@ -166,10 +166,6 @@ jobs:
           name: YTPlusM ${{ github.event.inputs.tweak_version }} and ${{ env.YT_VERSION }}
           files: YTPlusM_${{ env.YT_VERSION }}_${{ github.event.inputs.tweak_version }}.ipa
           draft: true
-      
-      - name: Build Complete
-        run: |
-          echo -e '### 🛠️ Build YTPlusM IPA Complete!' 
 
       - name: Output Release URL
         run: |
