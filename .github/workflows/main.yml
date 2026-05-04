@@ -162,10 +162,14 @@ jobs:
       - name: Upload to GitHub Releases
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: ${{ github.event.inputs.tweak_version }}_${{ env.YT_VERSION }}
+          tag_name: ${{ github.event.inputs.tweak_version }}_${{ env.YT_VERSION }}(${{ github.run_number }})
           name: YTPlusM ${{ github.event.inputs.tweak_version }} and ${{ env.YT_VERSION }}
           files: YTPlusM_${{ env.YT_VERSION }}_${{ github.event.inputs.tweak_version }}.ipa
           draft: true
+      
+      - name: Job Summary - Build Complete
+        run: |
+          echo -e '### 🛠️ Build YTPlusM IPA Complete!' >> $GITHUB_STEP_SUMMARY
 
       - name: Output Release URL
         run: |
