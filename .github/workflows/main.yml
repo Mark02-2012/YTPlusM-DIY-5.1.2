@@ -163,7 +163,7 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.event.inputs.tweak_version }}_${{ env.YT_VERSION }}
-          name: YTPlusM ${{ env.YT_VERSION }} and ${{ github.event.inputs.tweak_version }} 
+          name: YTPlusM ${{ github.event.inputs.tweak_version }} and ${{ env.YT_VERSION }}
           files: YTPlusM_${{ env.YT_VERSION }}_${{ github.event.inputs.tweak_version }}.ipa
           draft: true
 
