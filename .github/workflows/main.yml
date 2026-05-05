@@ -58,7 +58,7 @@ on:
        default: false
 
       enable_ytlcm:
-       description: "NEW! Integrate YTLowContrastMode (DO NOT USE)"
+       description: "NEW! Integrate YTLowContrastMode (TESTING)"
        type: boolean
        required: true
        default: false
