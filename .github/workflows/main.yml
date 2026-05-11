@@ -64,13 +64,13 @@ on:
        default: false
 
       enable_VolumeBoostYT:
-       description: "NEW! Integrate VolumeBoostYT (TEST)"
+       description: "NEW! Integrate VolumeBoostYT (YTPlusM)"
        type: boolean
        required: true
        default: false
 
       enable_YouGetCaption:
-       description: "NEW! Integrate YouGetCaption (TEST)"
+       description: "NEW! Integrate YouGetCaption (YTPlusM)"
        type: boolean
        required: true
        default: false
