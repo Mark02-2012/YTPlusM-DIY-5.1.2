@@ -299,13 +299,13 @@ jobs:
       - name: Build VolumeBoostYT
         if: ${{ inputs.enable_VolumeBoostYT }}
         run: |
-          cd YTLowContrastMode && make clean package DEBUG=0 FINALPACKAGE=1
+          cd VolumeBoostYT && make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ../volumeboostyt.deb
           
       - name: Build YouGetCaption
         if: ${{ inputs.enable_YouGetCaption }}
         run: |
-          cd YTLowContrastMode && make clean package DEBUG=0 FINALPACKAGE=1
+          cd YouGetCaption && make clean package DEBUG=0 FINALPACKAGE=1
           mv packages/*.deb ../yougetcaption.deb
 
       - name: Clone Open in YouTube (Safari extension)
