@@ -21,6 +21,24 @@ on:
         required: true
         default: false
 
+      enable_youmute:
+       description: "Integrate YouMute"
+       type: boolean
+       required: true
+       default: false
+
+      enable_ytlocalqueue:
+       description: "Integrate YTLocalQueue"
+       type: boolean
+       required: true
+       default: false
+
+      enable_youtimestamp:
+       description: "Integrate YouTimeStamp"
+       type: boolean
+       required: true
+       default: false
+
       enable_ryd:
         description: "Integrate Return YouTube Dislikes"
         type: boolean
@@ -122,12 +140,12 @@ jobs:
       enable_ytweaks: ${{ inputs.enable_ytweaks }}
       enable_gonerino: ${{ inputs.enable_gonerino }}
       enable_youspeed: ${{ inputs.enable_youspeed }}
+      enable_youmute: ${{ inputs.enable_youmute }}
+      enable_ytlocalqueue: ${{ inputs.enable_ytlocalqueue }}
+      enable_youtimestamp: ${{ inputs.enable_youtimestamp }}
       enable_ytlcm: ${{ inputs.enable_ytlcm }}
       enable_VolumeBoostYT: ${{ inputs.enable_VolumeBoostYT }}
       enable_YouGetCaption: ${{ inputs.enable_YouGetCaption }}
-      enable_YouMute: true
-      enable_YTLocalQueue: true
-      enable_YouTimeStamp: true
       tweak_version: ${{ inputs.tweak_version }}
 
 
