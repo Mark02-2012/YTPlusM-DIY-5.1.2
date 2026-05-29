@@ -1,4 +1,4 @@
-name: Build Tweaks (Patched)
+name: Build Tweaks [Altered-Patched]
 
 on:
   workflow_call:
