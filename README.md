@@ -1,5 +1,5 @@
-# YTPlusM-[Altered]
-My custom version of the best fork of an incredible enhancer for YouTube on iOS, <a href="https://github.com/Mark02-2012/YTPlusM-DIY">YTPlusM</a>. Featuring over hundred customizable options but with the latest version freed and with more tweaks than the original <a href="https://github.com/dayanch96/YTLite">YouTube Plus.</a>
+# Altered-YTPlusM
+An **altered** version of the BEST fork of enhancer for YouTube on iOS, <a href="https://github.com/Mark02-2012/YTPlusM-DIY">YTPlusM</a>. Featuring over hundred customizable options but with the latest version freed and with more tweaks than  <a href="https://github.com/dayanch96/YTLite">YouTube Plus.</a>
 
 
 
@@ -9,7 +9,6 @@ My custom version of the best fork of an incredible enhancer for YouTube on iOS,
 - [Screenshots](#screenshots)
 - [Main Features](#main-features)
 - [FAQ](#faq)
-- [Reviews](#reviews)
 - [How to build YouTube Plus and YTPlusM app using GitHub Actions](#how-to-build-youtube-plus-and-ytplusm-app-using-github-actions)
 - [What Means YTPlusM and YTPlusM DIY](#what-means-ytplusm-and-ytplusm-diy)
 - [Supported YouTube Version](#supported-youtube-version)
@@ -72,17 +71,17 @@ My custom version of the best fork of an incredible enhancer for YouTube on iOS,
 > 2. On your forked repository, go to **Repository Settings** > **Actions**, enable **Read and Write** permissions.
 
 <details>
-  <summary>How to build YTPlus and YTPlusM app</summary>
+  <summary>How to build Altered-YTPlusM app</summary>
   <ol>
     <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
-    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>Create YouTube Plus app</strong>.</li>
+    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>Create YTPlusM iPA [Altered-Patch]</strong>.</li>
     <li>Click the <strong>Run workflow</strong> button located on the right side.</li>
     <li>Mark or unmark the tweaks you want to integrate. Learn more about them in the <a href="#tweak-integration-details">Tweak Integration Details</a> section.</li>
     <li>Prepare a decrypted .ipa file <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox is recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
     <li><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
     <li>Enter the tweak version from the releases (the latest release is selected by default). You can also change the BundleID and Display Name if desired.</li>
     <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
-    <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
+    <li>Wait for the build to finish. You can download the Altered-YTPlusM app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
   </ol>
 </details>
 
@@ -110,10 +109,9 @@ My custom version of the best fork of an incredible enhancer for YouTube on iOS,
 
 
 <li><strong>YTPlusM DIY:</strong></li>
-<strong>From now, YOU can build the IPAs of YTPlusM with GitHub Actions! Fork <a href="https://github.com/Mark02-2012/YTPlusM-DIY-5.2.1">YTPlusM-DIY repo</a> (to build YTPlusM with YTPlus from 5.1 to 5.2.1, no 5.2, without DRM Patreon subscription); then go to Actions, workflows, "Create YouTube Plus app", make sure it is selected the branch "YTPlusM_DIY" and create your total functioning IPA!</strong>
+<strong>From now, YOU can build the IPAs of YTPlusM with GitHub Actions! Fork <a href="https://github.com/AlteredCabr0n/Altered-YTPlusM">Altered-YTPlusM repo</a> (to build YTPlusM with YTPlus from 5.1 to 5.2.1, no 5.2, without DRM Patreon subscription); then go to Actions, workflows, "Create YTPlusM iPA [Altered-Patch]", make sure it is selected the branch "Altered-YTPlusM" and create your total functioning IPA!</strong>
 View also <a href=#how-to-build-youtube-plus-and-ytplusm-app-using-github-actions>How to build YouTube Plus and YTPlusM app using GitHub Actions</a> to learn how to create YTPlus and YTPlusM IPAs.
 
-PS: DIY=DO IT YOURSELF
 
 
 ## Supported YouTube Version
@@ -261,13 +259,16 @@ This project is alive **only** thanks to those guys:
 <a href="https://www.reddit.com/u/shinewake/s/ZeFbBOkUAa">shinewake</a>: **patcher of YTPlus 5.2.1 (he removed Patreon DRM)**
 
 
+<a href="https://github.com/bpetrynski">bpetrynski</a>: **creator of YTLocalQueue**
+
+
 <a href="https://github.com/fosterbarnes">fosterbarnes</a>: **creator of YTweaks**
 
 
-<a href="https://github.com/PoomSmart">PoomSmart</a>: **creator of YouSpeed and YouGetCaption**
+<a href="https://github.com/PoomSmart">PoomSmart</a>: **creator of YouSpeed YouMute and YouGetCaption**
 
 
-<a href="https://github.com/arichornlover">arichornlover</a>: **creator of YTLowContrastMode**
+<a href="https://github.com/arichornlover">arichornlover</a>: **creator of YTLowContrastMode and YouTimeStamp**
 
 
 <a href="https://github.com/castdrian">castdrian</a>: **creator of Gonerino**
