@@ -256,33 +256,6 @@ jobs:
           mkdir -p YTLocalQueue/Headers
           cp -R "$THEOS/include/YouTubeHeader" "YTLocalQueue/Headers/YouTubeHeader"
 
-      - name: Patch YTLocalQueue duplicate YTHUDMessage interface
-        if: ${{ inputs.enable_YTLocalQueue }}
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          tweak = Path("YTLocalQueue/Tweak.xm")
-          text = tweak.read_text()
-
-          patched = re.sub(
-              r'\n?(?://[^\n]*YTHUDMessage[^\n]*\n)?\s*'
-              r'@interface\s+YTHUDMessage\s*:\s*NSObject\s*\n'
-              r'\s*\+\s*\((?:id|instancetype)\)messageWithText:\(NSString\s*\*\)text;\s*\n'
-              r'\s*@end\s*\n?',
-              '\n',
-              text,
-              count=1,
-              flags=re.MULTILINE,
-          )
-
-          if patched == text:
-              raise SystemExit("YTLocalQueue patch failed: YTHUDMessage forward declaration was not found")
-
-          tweak.write_text(patched)
-          PY
-
       - name: Clone YouTimeStamp
         if: ${{ inputs.enable_YouTimeStamp }}
         run: git clone --quiet --depth=1 https://github.com/thaibm92/YouTimeStamp.git
