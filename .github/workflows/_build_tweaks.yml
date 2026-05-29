@@ -246,7 +246,7 @@ jobs:
       - name: Clone YTLocalQueue
         if: ${{ inputs.enable_YTLocalQueue }}
         run: |
-          git clone --quiet --depth=1 https://github.com/bpetrynski/YTLocalQueue.git
+          git clone --quiet --depth=1 https://github.com/oceandrift7/YTLocalQueue.git
           mkdir -p YTLocalQueue/Headers
           cp -R "$THEOS/include/YouTubeHeader" "YTLocalQueue/Headers/YouTubeHeader"
 
