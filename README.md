@@ -4,4 +4,4 @@ The best fork of an incredible enhancer for YouTube on iOS, featuring over hundr
 <strong>This repo is only for building YTPlusM IPAs (with YTPlus from 5.1 to 5.2.1, no 5.2)</strong>
 
 ### IMPORTANT
-Soon this repo will not be updated more, you will simply had to fork <a href="https://github.com/Mark02-2012/YTPlusM">the main repo.</a>
+Soon this repo will not be updated anymore, you will simply had to fork <a href="https://github.com/Mark02-2012/YTPlusM">the main repo.</a>
